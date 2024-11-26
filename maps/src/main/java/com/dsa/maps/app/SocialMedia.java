@@ -17,7 +17,7 @@ public class SocialMedia{
     public SocialMedia() {
         posts = new HashMap<>();
         groupPosts = new HashMap<>();
-        this.groups = new HashMap<>();
+        groups = new HashMap<>();
     }
 
     public boolean createPost(String postId, String content) {
